@@ -11,7 +11,7 @@
 	<title>Document</title>
 </head>
 <body>
-<div class="header">
+<header class="header">
 	<div class="container header-flex">
 		<div class="header-left">
 			<a class="header-left__logo link-style" href="#">
@@ -20,11 +20,28 @@
 					BRAN<span class="logo__main-special">D</span></h1>
 			</a>
 			<form action="#" class="header-left__form" id="form-search">
-				<label for="select"></label>
-				<select class="form-select" id="select" name="select">
-					<option value="Browse">Browse</option>
-					<option value="Browse2">Browse2</option>
-				</select>
+				<details class="details-style">
+					<summary class="form-select">Browse</summary>
+					<div class="drop-down-menu">
+						<h3 class="item-heading">Women</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+						<a href="#" class="mega-link">Jackets/Coats</a>
+						<a href="#" class="mega-link">Blazers</a>
+						<a href="#" class="mega-link">Denim</a>
+						<a href="#" class="mega-link"> Leggings/Pants</a>
+						<a href="#" class="mega-link">Skirts/Shorts</a>
+						<a href="#" class="mega-link">Accessories</a>
+						<h3 class="item-heading">Man</h3>
+						<a href="#" class="mega-link">Tees/Tank tops</a>
+						<a href="#" class="mega-link">Shirts/Polos</a>
+						<a href="#" class="mega-link">Sweaters</a>
+						<a href="#" class="mega-link">Sweatshirts/Hoodies</a>
+						<a href="#" class="mega-link">Blazers</a>
+						<a href="#" class="mega-link">Jackets/vests</a>
+					</div>
+				</details>
 				<label for="search"></label>
 				<input class="form-search" id="search" name="search"
 				       placeholder="Search for Item..." type="text">
@@ -33,15 +50,55 @@
 		</div>
 		<div class="header-right">
 			<div class="header-right__basket">
-				<a class="basket-link" href="#">
+				<div class="basket">
 					<img alt="basket" src="img/basket.png">
-				</a>
+					<div class="basket-menu">
+						<div class="basket-menu-item">
+							<div class="basket-item-img">
+								<img src="img/basket_1.png" alt="basket_1.png">
+							</div>
+							<div class="basket-item-desc">
+								<h3 class="basket-item-title">Rebox Zane</h3>
+								<img src="img/star.png" alt="star.png">
+								<p class="basket-item-praise">1 <span class="basket-item-praise-x">x</span> $250</p>
+							</div>
+							<div class="basket-item-delete">
+								<button class="button-basket-delete">
+									<img src="img/close.png" alt="close.png">
+								</button>
+							</div>
+						</div>
+						<div class="basket-menu-item">
+							<div class="basket-item-img">
+								<img src="img/basket_2.png" alt="basket_2.png">
+							</div>
+							<div class="basket-item-desc">
+								<h3 class="basket-item-title">Rebox Zane</h3>
+								<img src="img/star.png" alt="star.png">
+								<p class="basket-item-praise">1 <span class="basket-item-praise-x">x</span> $250</p>
+							</div>
+							<div class="basket-item-delete">
+								<button class="button-basket-delete">
+									<img src="img/close.png" alt="close.png">
+								</button>
+							</div>
+						</div>
+						<div class="basket-total">
+							<p class="basket-total-text">TOTAL</p>
+							<p class="basket-total-text">$500.00</p>
+						</div>
+						<div class="basket-button">
+							<a class="button-checkout" href="#">Checkout</a>
+							<a class="button-go-to-cart" href="#">Go to cart</a>
+						</div>
+					</div>
+				</div>
 				<a class="menu" href="#">My Account</a>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="navigation">
+</header>
+<nav class="navigation">
 	<div class="container">
 		<ul class="nav-menu-ul">
 			<li class="nav-menu-list">
@@ -53,36 +110,267 @@
 				<a class="nav-menu-link" href="#">
 					Man
 				</a>
+				<div class="mega-box">
+					<div class="menu-item">
+						<h3 class="item-heading">Man</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+						<a href="#" class="mega-link">Jackets/Coats</a>
+						<a href="#" class="mega-link">Blazers</a>
+						<a href="#" class="mega-link">Denim</a>
+						<a href="#" class="mega-link"> Leggings/Pants</a>
+						<a href="#" class="mega-link">Skirts/Shorts</a>
+						<a href="#" class="mega-link">Accessories</a>
+					</div>
+					<div class="menu-item">
+						<h3 class="item-heading">Man</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+						<a href="#" class="mega-link">Jackets/Coats</a>
+						<a href="#" class="mega-link">Blazers</a>
+						<h3 class="item-heading">Man</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+					</div>
+					<div class="menu-item">
+						<h3 class="item-heading">Man</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+						<a href="#" class="mega-link">Jackets/Coats</a>
+						<a href="#" class="mega-link">Blazers</a>
+						<a class="img-menu-link" href="#">
+							<div class="img-menu-item">
+								<p class="text-img-menu">
+									Super
+									<br>
+									sale!
+								</p>
+							</div>
+						</a>
+					</div>
+				</div>
 			</li>
 			<li class="nav-menu-list">
 				<a class="nav-menu-link" href="#">
 					Women
 				</a>
+				<div class="mega-box">
+					<div class="menu-item">
+						<h3 class="item-heading">Women</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+						<a href="#" class="mega-link">Jackets/Coats</a>
+						<a href="#" class="mega-link">Blazers</a>
+						<a href="#" class="mega-link">Denim</a>
+						<a href="#" class="mega-link"> Leggings/Pants</a>
+						<a href="#" class="mega-link">Skirts/Shorts</a>
+						<a href="#" class="mega-link">Accessories</a>
+					</div>
+					<div class="menu-item">
+						<h3 class="item-heading">Women</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+						<a href="#" class="mega-link">Jackets/Coats</a>
+						<a href="#" class="mega-link">Blazers</a>
+						<h3 class="item-heading">Women</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+					</div>
+					<div class="menu-item">
+						<h3 class="item-heading">Women</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+						<a href="#" class="mega-link">Jackets/Coats</a>
+						<a href="#" class="mega-link">Blazers</a>
+						<a class="img-menu-link" href="#">
+							<div class="img-menu-item">
+								<p class="text-img-menu">
+									Super
+									<br>
+									sale!
+								</p>
+							</div>
+						</a>
+					</div>
+				</div>
 			</li>
 			<li class="nav-menu-list">
 				<a class="nav-menu-link" href="#">
 					Kids
 				</a>
+				<div class="mega-box">
+					<div class="menu-item">
+						<h3 class="item-heading">Kids</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+						<a href="#" class="mega-link">Jackets/Coats</a>
+						<a href="#" class="mega-link">Blazers</a>
+					</div>
+					<div class="menu-item">
+						<h3 class="item-heading">BOYS</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<h3 class="item-heading">GIRLS</h3>
+						<a href="#" class="mega-link">Dresses</a>
+					</div>
+					<div class="menu-item">
+						<h3 class="item-heading">KIDS SALE</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+						<a href="#" class="mega-link">Jackets/Coats</a>
+						<a class="img-menu-link" href="#">
+							<div class="img-menu-item">
+								<p class="text-img-menu">
+									Super
+									<br>
+									sale!
+								</p>
+							</div>
+						</a>
+					</div>
+				</div>
 			</li>
-			<li class="nav-menu-list">
+			<li class="nav-menu-list last">
 				<a class="nav-menu-link" href="#">
 					Accessories
 				</a>
+				<div class="mega-box">
+					<div class="menu-item">
+						<h3 class="item-heading">MAN ACCESORIESE</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+					</div>
+					<div class="menu-item">
+						<h3 class="item-heading">WOMAN ACCESORIESE</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<h3 class="item-heading">KIDS ACCESORIESE</h3>
+						<a href="#" class="mega-link">Dresses</a>
+					</div>
+					<div class="menu-item">
+						<h3 class="item-heading">SALE ACCESORIESE</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a class="img-menu-link" href="#">
+							<div class="img-menu-item">
+								<p class="text-img-menu">
+									Super
+									<br>
+									sale!
+								</p>
+							</div>
+						</a>
+					</div>
+				</div>
 			</li>
-			<li class="nav-menu-list">
+			<li class="nav-menu-list last">
 				<a class="nav-menu-link" href="#">
 					Featured
 				</a>
+				<div class="mega-box">
+					<div class="menu-item">
+						<h3 class="item-heading">Featured</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+						<a href="#" class="mega-link">Jackets/Coats</a>
+						<a href="#" class="mega-link">Blazers</a>
+						<a href="#" class="mega-link">Denim</a>
+						<a href="#" class="mega-link"> Leggings/Pants</a>
+						<a href="#" class="mega-link">Skirts/Shorts</a>
+						<a href="#" class="mega-link">Accessories</a>
+					</div>
+					<div class="menu-item">
+						<h3 class="item-heading">Featured</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+						<a href="#" class="mega-link">Jackets/Coats</a>
+						<a href="#" class="mega-link">Blazers</a>
+						<h3 class="item-heading">Accessories</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+					</div>
+					<div class="menu-item">
+						<h3 class="item-heading">Featured</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+						<a href="#" class="mega-link">Jackets/Coats</a>
+						<a href="#" class="mega-link">Blazers</a>
+						<a class="img-menu-link" href="#">
+							<div class="img-menu-item">
+								<p class="text-img-menu">
+									Super
+									<br>
+									sale!
+								</p>
+							</div>
+						</a>
+					</div>
+				</div>
 			</li>
-			<li class="nav-menu-list">
+			<li class="nav-menu-list last">
 				<a class="nav-menu-link" href="#">
 					Hot Deals
 				</a>
+				<div class="mega-box">
+					<div class="menu-item">
+						<h3 class="item-heading">Hot Deals</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+						<a href="#" class="mega-link">Jackets/Coats</a>
+						<a href="#" class="mega-link">Blazers</a>
+						<a href="#" class="mega-link">Denim</a>
+						<a href="#" class="mega-link"> Leggings/Pants</a>
+						<a href="#" class="mega-link">Skirts/Shorts</a>
+						<a href="#" class="mega-link">Accessories</a>
+					</div>
+					<div class="menu-item">
+						<h3 class="item-heading">Hot Deals</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+						<a href="#" class="mega-link">Jackets/Coats</a>
+						<a href="#" class="mega-link">Blazers</a>
+						<h3 class="item-heading">Hot Deals</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+					</div>
+					<div class="menu-item">
+						<h3 class="item-heading">Hot Deals</h3>
+						<a href="#" class="mega-link">Dresses</a>
+						<a href="#" class="mega-link">Tops</a>
+						<a href="#" class="mega-link">Sweaters/Knits</a>
+						<a href="#" class="mega-link">Jackets/Coats</a>
+						<a href="#" class="mega-link">Blazers</a>
+						<a class="img-menu-link" href="#">
+							<div class="img-menu-item">
+								<p class="text-img-menu">
+									Super
+									<br>
+									sale!
+								</p>
+							</div>
+						</a>
+					</div>
+				</div>
 			</li>
 		</ul>
 	</div>
-</div>
-<div class="slider">
+</nav>
+<section class="slider">
 	<div class="container slider-background">
 		<div class="slider-content">
 			<div class="slider-element">
@@ -96,8 +384,8 @@
 			</div>
 		</div>
 	</div>
-</div>
-<div class="category">
+</section>
+<section class="category">
 	<div class="container">
 		<div class="banner-content">
 			<div class="banner-left">
@@ -138,13 +426,13 @@
 			</div>
 		</div>
 	</div>
-</div>
-<div class="product">
+</section>
+<section class="product">
 	<div class="container">
-		<div class="product-title">
+		<header class="product-title">
 			<h4 class="product-title-main">Featured Items</h4>
 			<p class="product-title-descriptions">Shop for items based on what we featured in this week</p>
-		</div>
+		</header>
 		<div class="product-cards">
 			<a href="#" class="card">
 				<div class="card-img">
@@ -226,8 +514,8 @@
 		</div>
 	</div>
 
-</div>
-<div class="feature">
+</section>
+<section class="feature">
 	<div class="container">
 		<div class="feature-box">
 			<div class="feature-left">
@@ -239,7 +527,7 @@
 				</p>
 			</div>
 			<div class="feature-right">
-				<div class="feature-info-delivery">
+				<article class="feature-info-delivery">
 					<ul class="ul-padding">
 						<li class="feature-list delivery-icon">
 							<p class="feature-info-title">Free Delivery</p>
@@ -266,18 +554,19 @@
 							</p>
 						</li>
 					</ul>
-				</div>
+				</article>
 			</div>
 		
 		</div>
 	</div>
-</div>
-<div class="subscribe">
+</section>
+<section class="subscribe">
 	<div class="container subscribe-flex">
 		<div class="subscribe-left">
-			<div class="subscribe-review">
+			<figure class="subscribe-review">
 				<div class="subscribe-review-photo">
-					<img src="img/photo.png" alt="photo"></div>
+					<img src="img/photo.png" alt="photo">
+				</div>
 				<div class="subscribe-review-info">
 					<p class="review-text">
 						“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
@@ -294,7 +583,7 @@
 						<a class="slider-link-action" href="#"></a>
 					</div>
 				</div>
-			</div>
+			</figure>
 		</div>
 		<div class="vl"></div>
 		<div class="subscribe-right">
@@ -306,22 +595,24 @@
 				</span>
 			</p>
 			<form action="#" id="form-subscribe-email" class="form-subscribe-email">
-				<input class="subscribe-email-input" name="email"
-				       placeholder="Enter Your Email" type="email">
+				<label>
+					<input class="subscribe-email-input" name="email"
+					       placeholder="Enter Your Email" type="email">
+				</label>
 				<button class="subscribe-button" form="form-subscribe-email" type="submit">Subscribe</button>
 			</form>
 		</div>
 	</div>
-</div>
-<div class="footer">
+</section>
+<section class="footer">
 	<div class="container footer-flex">
 		<div class="footer-descriptions">
-			<div class="header-left__logo link-style" href="#">
+			<header class="header-left__logo link-style" href="#">
 				<img alt="logo" src="img/logo.png">
 				<h1 class="logo__main">
 					BRAN<span class="logo__main-special">D</span></h1>
-			</div>
-			<div class="footer-descriptions-text">
+			</header>
+			<article class="footer-descriptions-text">
 				<p>
 					Objectively transition extensive data rather than cross functional solutions. Monotonectally
 					syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded
@@ -330,9 +621,9 @@
 					Efficiently plagiarize 24/365 action items and focused infomediaries.
 					Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
 				</p>
-			</div>
+			</article>
 		</div>
-		<div class="footer-company">
+		<nav class="footer-company">
 			<div class="footer-company-title footer-title">
 				<p>COMPANY</p>
 			</div>
@@ -355,8 +646,8 @@
 					</li>
 				</ul>
 			</div>
-		</div>
-		<div class="footer-information">
+		</nav>
+		<nav class="footer-information">
 			<div class="footer-information-title footer-title">
 				<p>INFORMATION</p>
 			</div>
@@ -389,8 +680,8 @@
 					</li>
 				</ul>
 			</div>
-		</div>
-		<div class="footer-shop">
+		</nav>
+		<nav class="footer-shop">
 			<div class="footer-shop-title footer-title">
 				<p>SHOP CATEGORY</p>
 			</div>
@@ -423,10 +714,10 @@
 					</li>
 				</ul>
 			</div>
-		</div>
+		</nav>
 	</div>
-</div>
-<div class="footer-copy">
+</section>
+<footer class="footer-copy">
 	<div class="container flex-footer-copy">
 		<div class="footer-copy-text">
 			<p class="footer-copy-info">
@@ -443,6 +734,6 @@
 	</div>
 
 
-</div>
+</footer>
 </body>
 </html>
