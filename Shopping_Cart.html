@@ -9,7 +9,7 @@
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/old-style.css" rel="stylesheet">
-	<title>Single Page</title>
+	<title>Shopping Cart</title>
 </head>
 <body>
 <header class="header">
@@ -404,186 +404,162 @@
 	</div>
 
 </nav>
-<section class="carousel">
-	<div class="flex-carousel carousel-content">
-		<a class="carousel-link previous-link" href="#">
-			<i class="fas fa-chevron-left"></i>
-		</a>
-		<div class="carousel-img"></div>
-		<a class="carousel-link nex-link" href="#">
-			<i class="fas fa-chevron-right"></i>
-		</a>
-	</div>
-</section>
-<section class="product-page-description">
-	<div class="container product-page-flex">
-		<div class="product-page-content">
-			<div class="container-product-page">
-				<p class="product-page-content__title">WOMEN COLLECTION</p>
-				<div class="divider"></div>
-				<p class="product-page-content__subtitle">MOSCHINO CHEAP AND CHIC</p>
-				<div class="product-page-content__rating">
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-				</div>
-				<p class="product-page-content__description">Compellingly actualize fully researched processes before
-					proactive
-					outsourcing. Progressively syndicate
-					collaborative architectures before cutting-edge services. Completely visualize parallel core
-					competencies rather than exceptional portals. </p>
-				<div class="product-page-content__composition">
-					<p class="composition__mute">MATERIAL:
-						<span class="composition">COTTON</span>
-					</p>
-					<p class="composition__mute">DESIGNER:
-						<span class="composition">BINBURHAN</span>
-					</p>
-				</div>
-				<p class="product-page-content-price">$561</p>
-				<div class="product-page-content__divider"></div>
-				<form action="#" id="form-choose">
-					<div class="form-choose">
-						<div class="chose">
-							<p class="chose-labile">CHOOSE COLOR</p>
-							<select id="choose-color" class="input-chose">
-								<option class="yellow">Yellow</option>
-								<option class="red">Red</option>
-								<option class="green">Green</option>
-								<option class="blue">Blue</option>
-							</select>
+<section class="table-basket">
+	<div class="container">
+		<div class="basket-product-title">
+			<p class="first-column text-style basket-product-title_margin-bottom">PRODUCT DETAILS</p>
+			<p class="second-column text-style basket-product-title_margin-bottom">UNITE PRICE</p>
+			<p class="second-column text-style basket-product-title_margin-bottom">QUANTITY</p>
+			<p class="second-column text-style basket-product-title_margin-bottom">SHIPPING</p>
+			<p class="second-column text-style basket-product-title_margin-bottom">SUBTOTAL</p>
+			<p class="second-column text-style basket-product-title_margin-bottom">ACTION</p>
+		</div>
+		<div class="basket-product-item">
+			<div class="product-item-info first-column">
+				<div class="product-item-img-and-descriptions">
+					<img class="margin-rite" src="img/basket-product_1.png" alt="basket-product_1.png">
+					<div class="item-descriptions">
+						<p class="text-product-name">MANGO PEOPLE T-SHIRT</p>
+						<div class="rating">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
 						</div>
-						<div class="chose">
-							<p class="chose-labile">CHOOSE SIZE</p>
-							<select name="choose-size" class="input-chose">
-								<option value="value1" selected> XXL</option>
-								<option value="value2">XL</option>
-								<option value="value3">L</option>
-							</select>
-						</div>
-						<div class="chose">
-							<p class="chose-labile">QUANTITY</p>
-							<input type="text" class="input-chose" value="2">
-						</div>
+						<p class="text-info-product">Color: <span class="text-info-product-lite">Red</span></p>
+						<p class="text-info-product">Size: <span class="text-info-product-lite">Xll</span></p>
 					</div>
-					<button class="choose-button" form="form-choose" type="submit">
-						<div class="add-to-cart">
-							<img class="basket__img-buy" src="img/basket_pink.svg" alt="basket_pink.svg">
-							<p>Add to Cart</p>
-						</div>
-					</button>
-				</form>
+				</div>
 			</div>
+			<p class="second-column text-style color-text">150$</p>
+			<div class="text-style  second-column width-custom">
+				<input class="input-count-product" type="number" value="2">
+			</div>
+			<p class="second-column text-style color-text">FREE</p>
+			<p class="second-column text-style color-text">$300</p>
+			<div class="item-basket__product-delete second-column">
+				<button class="product-delete__button">
+					<i class="button__icon-close fas fa-times-circle"></i>
+				</button>
+			</div>
+		</div>
+		<div class="basket-product-item">
+			<div class="product-item-info first-column">
+				<div class="product-item-img-and-descriptions">
+					<img class="margin-rite" src="img/basket_produc_2.png" alt="basket_produc_2.png">
+					<div class="item-descriptions">
+						<p class="text-product-name">MANGO PEOPLE T-SHIRT</p>
+						<div class="rating">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<p class="text-info-product">Color: <span class="text-info-product-lite">Red</span></p>
+						<p class="text-info-product">Size: <span class="text-info-product-lite">Xll</span></p>
+					</div>
+				</div>
+			</div>
+			<p class="second-column text-style color-text">150$</p>
+			<div class="text-style  second-column width-custom">
+				<input class="input-count-product" type="number" value="2">
+			</div>
+			<p class="second-column text-style color-text">FREE</p>
+			<p class="second-column text-style color-text">$300</p>
+			<div class="item-basket__product-delete second-column">
+				<button class="product-delete__button">
+					<i class="button__icon-close fas fa-times-circle"></i>
+				</button>
+			</div>
+		</div>
+		<div class="basket-product-item">
+			<div class="product-item-info first-column">
+				<div class="product-item-img-and-descriptions">
+					<img class="margin-rite" src="img/basket_product_3.png" alt="basket_product_3.png">
+					<div class="item-descriptions">
+						<p class="text-product-name">MANGO PEOPLE T-SHIRT</p>
+						<div class="rating">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<p class="text-info-product">Color: <span class="text-info-product-lite">Red</span></p>
+						<p class="text-info-product">Size: <span class="text-info-product-lite">Xll</span></p>
+					</div>
+				</div>
+			</div>
+			<p class="second-column text-style color-text">150$</p>
+			<div class="text-style  second-column width-custom">
+				<input class="input-count-product" type="number" value="2">
+			</div>
+			<p class="second-column text-style color-text">FREE</p>
+			<p class="second-column text-style color-text">$300</p>
+			<div class="item-basket__product-delete second-column">
+				<button class="product-delete__button">
+					<i class="button__icon-close fas fa-times-circle"></i>
+				</button>
+			</div>
+		</div>
+		<div class="basket-array-button">
+			<a class="button-basket basket-array-button__button-basket button-basket_hover-clear" href="#">cLEAR
+				SHOPPING CART</a>
+			<a class="button-basket basket-array-button__button-basket button-basket_hover-continue" href="#">CONTINUE
+				sHOPPING</a>
 		</div>
 	
 	</div>
 </section>
-<section class="you-may-like-also">
+<section class="proceed-to-check">
 	<div class="container">
-		<header>
-			<h3 class="you-may-like-also__header">YOU MAY LIKE ALSO</h3>
-		</header>
-		<div class="product-cards">
-			<div class="one-card one-card-fix one-card-fix-margin">
-				<a href="#" class="card card-fix">
-					<img class="card-img-png card-img-png-fix" src="img/BLAZE_LEGGINGS.png" alt="BLAZE_LEGGINGS.png">
-					<div class="card-info">
-						<p class="card-info-name">BLAZE LEGGINGS</p>
-						<div class="price-and-rating">
-							<p class="card-info-price">$52.00</p>
-							<div class="product-page-content__rating focus-visible">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-							</div>
-						</div>
-					
-					</div>
-				</a>
-				<div class="box-add">
-					<a class="add" href="#">
-						<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
-						<p class="add-text">Add to cart</p>
-					</a>
-				</div>
+		<div class="array-form">
+			<div class="shopping-address">
+				<form action="#" id="form-shopping-address" class="form-shopping-address">
+					<h3 class="header-array-form">SHIPPING ADDRESS</h3>
+					<input class="input-proceed-to-check" id="country" list="dl_country" placeholder="Country">
+					<datalist id="dl_country">
+						<option label="Бангладеш" value="Bangladesh"></option>
+						<option label="Россия" value="Russia"></option>
+						<option label="США" value="USA"></option>
+						<option label="Англия" value="England"></option>
+					</datalist>
+					<input class="input-proceed-to-check" type="text" placeholder="State">
+					<input class="input-proceed-to-check" type="number" placeholder="Postcode / Zip">
+					<button class="button-shopping form-shopping-address__margin-top" form="form-shopping-address"
+					        type="submit">
+						GET A QUOTE
+					</button>
+				</form>
 			</div>
-			<div class="one-card one-card-fix one-card-fix-margin">
-				<a href="#" class="card card-fix">
-					<img class="card-img-png card-img-png-fix" src="img/ALEXA_SWEATER.png" alt="ALEXA_SWEATER.png">
-					<div class="card-info">
-						<p class="card-info-name">ALEXA SWEATER</p>
-						<div class="price-and-rating">
-							<p class="card-info-price">$52.00</p>
-							<div class="product-page-content__rating focus-visible">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-							</div>
-						</div>
-					</div>
-				</a>
-				<div class="box-add">
-					<a class="add" href="#">
-						<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
-						<p class="add-text">Add to cart</p>
-					</a>
-				</div>
+			
+			<div class="coupon-discount">
+				<form action="#" id="form-coupon-discount" class="form-coupon-discount">
+					<h3 class="header-array-form">coupon discount</h3>
+					<p class="text-coupon">Enter your coupon code if you have one</p>
+					<input class="input-proceed-to-check" type="text" placeholder="State">
+					<button class="button-shopping form-coupon-discount__margin-top" form="form-coupon-discount"
+					        type="submit">
+						Apply coupon
+					</button>
+				</form>
 			</div>
-			<div class="one-card one-card-fix one-card-fix-margin">
-				<a href="#" class="card card-fix">
-					<img class="card-img-png card-img-png-fix" src="img/AGNES_TOP.png" alt="AGNES_TOP.png">
-					<div class="card-info">
-						<p class="card-info-name">AGNES TOP</p>
-						<div class="price-and-rating">
-							<p class="card-info-price">$52.00</p>
-							<div class="product-page-content__rating focus-visible">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-							</div>
-						</div>
-					</div>
-				</a>
-				<div class="box-add">
-					<a class="add" href="#">
-						<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
-						<p class="add-text">Add to cart</p>
-					</a>
+			<div class="result-block">
+				<div class="result-block-info">
+					<p class="text-sub-total">SUB TOTAL &nbsp; &nbsp; &nbsp; $900</p>
+					<p class="text-grand-total">GRAND TOTAL &nbsp; &nbsp; &nbsp;
+						<span class="price-total">$900</span>
+					</p>
 				</div>
-			</div>
-			<div class="one-card one-card-fix one-card-fix-margin">
-				<a href="#" class="card card-fix">
-					<img class="card-img-png card-img-png-fix" src="img/SYLVA_SWEATER.png" alt="SYLVA_SWEATER.png">
-					<div class="card-info">
-						<p class="card-info-name">SYLVA SWEATER</p>
-						<div class="price-and-rating">
-							<p class="card-info-price">$52.00</p>
-							<div class="product-page-content__rating focus-visible">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-							</div>
-						</div>
-					</div>
+				<hr class="color-hr">
+				<a class="button-shopping result-block-info__margin button-shopping_style" href="#">
+					PROCEED TO CHECKOUT
 				</a>
-				<div class="box-add">
-					<a class="add" href="#">
-						<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
-						<p class="add-text">Add to cart</p>
-					</a>
-				</div>
 			</div>
 		</div>
+	
 	</div>
 </section>
 <section class="subscribe">

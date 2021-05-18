@@ -9,7 +9,7 @@
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/old-style.css" rel="stylesheet">
-	<title>Single Page</title>
+	<title>Product</title>
 </head>
 <body>
 <header class="header">
@@ -404,186 +404,438 @@
 	</div>
 
 </nav>
-<section class="carousel">
-	<div class="flex-carousel carousel-content">
-		<a class="carousel-link previous-link" href="#">
-			<i class="fas fa-chevron-left"></i>
-		</a>
-		<div class="carousel-img"></div>
-		<a class="carousel-link nex-link" href="#">
-			<i class="fas fa-chevron-right"></i>
-		</a>
-	</div>
-</section>
-<section class="product-page-description">
-	<div class="container product-page-flex">
-		<div class="product-page-content">
-			<div class="container-product-page">
-				<p class="product-page-content__title">WOMEN COLLECTION</p>
-				<div class="divider"></div>
-				<p class="product-page-content__subtitle">MOSCHINO CHEAP AND CHIC</p>
-				<div class="product-page-content__rating">
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-				</div>
-				<p class="product-page-content__description">Compellingly actualize fully researched processes before
-					proactive
-					outsourcing. Progressively syndicate
-					collaborative architectures before cutting-edge services. Completely visualize parallel core
-					competencies rather than exceptional portals. </p>
-				<div class="product-page-content__composition">
-					<p class="composition__mute">MATERIAL:
-						<span class="composition">COTTON</span>
-					</p>
-					<p class="composition__mute">DESIGNER:
-						<span class="composition">BINBURHAN</span>
-					</p>
-				</div>
-				<p class="product-page-content-price">$561</p>
-				<div class="product-page-content__divider"></div>
-				<form action="#" id="form-choose">
-					<div class="form-choose">
-						<div class="chose">
-							<p class="chose-labile">CHOOSE COLOR</p>
-							<select id="choose-color" class="input-chose">
-								<option class="yellow">Yellow</option>
-								<option class="red">Red</option>
-								<option class="green">Green</option>
-								<option class="blue">Blue</option>
-							</select>
+<section class="page-product">
+	<div class="container">
+		<div class="page-product-flex">
+			<div class="sidebar">
+				<details open class="category-product-details">
+					<summary class="category-summary">
+						<span class="category-title">CATEGORY</span>
+					</summary>
+					<div class="category-box">
+						<a href="#" class="category-item-link">Accessories</a>
+						<a href="#" class="category-item-link">Bags</a>
+						<a href="#" class="category-item-link">Denim</a>
+						<a href="#" class="category-item-link">Hoodies & Sweatshirts</a>
+						<a href="#" class="category-item-link">Jackets & Coats</a>
+						<a href="#" class="category-item-link">Pants</a>
+						<a href="#" class="category-item-link">Polos</a>
+						<a href="#" class="category-item-link">Shirts</a>
+						<a href="#" class="category-item-link">Shoes</a>
+						<a href="#" class="category-item-link">Shorts</a>
+						<a href="#" class="category-item-link">Sweaters & Knits</a>
+						<a href="#" class="category-item-link">T-Shirts</a>
+						<a href="#" class="category-item-link">Tanks</a>
+					</div>
+				</details>
+				<details class="category-product-details">
+					<summary class="category-summary">
+						<p class="category-title">BRAND</p>
+					</summary>
+					<div class="category-box">
+						<a href="#" class="category-item-link">Accessories</a>
+						<a href="#" class="category-item-link">Bags</a>
+						<a href="#" class="category-item-link">Denim</a>
+						<a href="#" class="category-item-link">Hoodies & Sweatshirts</a>
+						<a href="#" class="category-item-link">Jackets & Coats</a>
+						<a href="#" class="category-item-link">Pants</a>
+						<a href="#" class="category-item-link">Polos</a>
+						<a href="#" class="category-item-link">Shirts</a>
+						<a href="#" class="category-item-link">Shoes</a>
+						<a href="#" class="category-item-link">Shorts</a>
+						<a href="#" class="category-item-link">Sweaters & Knits</a>
+						<a href="#" class="category-item-link">T-Shirts</a>
+						<a href="#" class="category-item-link">Tanks</a>
+					</div>
+				</details>
+				<details class="category-product-details">
+					<summary class="category-summary">
+						<p class="category-title">DESIGNER</p>
+					</summary>
+					<div class="category-box">
+						<a href="#" class="category-item-link">Accessories</a>
+						<a href="#" class="category-item-link">Bags</a>
+						<a href="#" class="category-item-link">Denim</a>
+						<a href="#" class="category-item-link">Hoodies & Sweatshirts</a>
+						<a href="#" class="category-item-link">Jackets & Coats</a>
+						<a href="#" class="category-item-link">Pants</a>
+						<a href="#" class="category-item-link">Polos</a>
+						<a href="#" class="category-item-link">Shirts</a>
+						<a href="#" class="category-item-link">Shoes</a>
+						<a href="#" class="category-item-link">Shorts</a>
+						<a href="#" class="category-item-link">Sweaters & Knits</a>
+						<a href="#" class="category-item-link">T-Shirts</a>
+						<a href="#" class="category-item-link">Tanks</a>
+					</div>
+				</details>
+			</div>
+			<div class="product-page">
+				<div class="top-filter">
+					<div class="top-filter-up">
+						<div class="top-filter-trending-now">
+							<p class="title-text">TRENDING NOW</p>
+							<a class="trending-now-link" href="#">Bohemian</a>
+							<a class="trending-now-link trending-now-link-border" href="#">Floral</a>
+							<a class="trending-now-link" href="#">Lace</a>
+							<a class="trending-now-link" href="#">Floral</a>
+							<a class="trending-now-link trending-now-link-border" href="#">Lace</a>
+							<a class="trending-now-link" href="#">Bohemian</a>
 						</div>
-						<div class="chose">
-							<p class="chose-labile">CHOOSE SIZE</p>
-							<select name="choose-size" class="input-chose">
-								<option value="value1" selected> XXL</option>
-								<option value="value2">XL</option>
-								<option value="value3">L</option>
-							</select>
+						<div class="top-filter-size">
+							<p class="title-text">SIZE</p>
+							<div class="array-checkbox">
+								<div class="size-checkbox ">
+									<input class="size-input-checkbox" type="checkbox" id="XXS-size" name="XXS-size">
+									<label for="XXS-size">XXS</label>
+								</div>
+								<div class="size-checkbox">
+									<input class="size-input-checkbox" type="checkbox" id="XS-size" name="XS-size">
+									<label for="XS-size">XS</label>
+								</div>
+								<div class="size-checkbox">
+									<input class="size-input-checkbox" type="checkbox" id="S-size" name="S-size">
+									<label for="S-size">S</label>
+								</div>
+								<div class="size-checkbox">
+									<input class="size-input-checkbox" type="checkbox" id="M-size" name="M-size"
+									>
+									<label for="M-size">M</label>
+								</div>
+								<div class="size-checkbox">
+									<input class="size-input-checkbox" type="checkbox" id="L-size" name="L-size"
+									>
+									<label for="L-size">L</label>
+								</div>
+								<div class="size-checkbox">
+									<input class="size-input-checkbox" type="checkbox" id="XL-size" name="XL-size"
+									>
+									<label for="XL-size">XL</label>
+								</div>
+								<div class="size-checkbox">
+									<input class="size-input-checkbox" type="checkbox" id="XXL-size" name="XXL-size"
+									>
+									<label for="XXL-size">XXL</label>
+								</div>
+							</div>
 						</div>
-						<div class="chose">
-							<p class="chose-labile">QUANTITY</p>
-							<input type="text" class="input-chose" value="2">
+						<div class="top-filter-price">
+							<div class="range-box">
+								<p class="title-text">PRICE</p>
+								<input class="range-box-input" type="range" value="200" min="52" max="400">
+								<div class="value-range">
+									<p class="range-price">$52</p>
+									<p class="range-price">$400</p>
+								</div>
+							
+							</div>
 						</div>
 					</div>
-					<button class="choose-button" form="form-choose" type="submit">
-						<div class="add-to-cart">
-							<img class="basket__img-buy" src="img/basket_pink.svg" alt="basket_pink.svg">
-							<p>Add to Cart</p>
+					<div class="top-filter-down">
+						<div class="sort">
+							<div class="sort-box">
+								<p class="sort-by-value">Sort By</p>
+								<div class="sort-by-variable">
+									<select class="sort-by-select">
+										<option>Name</option>
+										<option>Prise</option>
+									</select>
+								</div>
+							</div>
+							<div class="sort-box">
+								<p class="sort-by-value">Show</p>
+								<div class="sort-by-variable">
+									<select class="sort-by-select">
+										<option>09</option>
+										<option>10</option>
+									</select>
+								</div>
+							</div>
 						</div>
-					</button>
-				</form>
+					</div>
+				</div>
+				<div class="product-box">
+					<div class="product-cards">
+						<div class="one-card one-card-fix">
+							<a href="#" class="card card-fix">
+								<img class="card-img-png card-img-png-fix" src="img/products/product_box_1.png"
+								     alt="BLAZE_LEGGINGS.png">
+								<div class="card-info">
+									<p class="card-info-name">BLAZE LEGGINGS</p>
+									<div class="price-and-rating">
+										<p class="card-info-price">$52.00</p>
+										<div class="product-page-content__rating focus-visible">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+									</div>
+								
+								</div>
+							</a>
+							<div class="box-add">
+								<a class="add" href="#">
+									<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
+									<p class="add-text">Add to cart</p>
+								</a>
+							</div>
+						</div>
+						<div class="one-card one-card-fix">
+							<a href="#" class="card card-fix">
+								<img class="card-img-png card-img-png-fix" src="img/products/product_box_2.png"
+								     alt="ALEXA_SWEATER.png">
+								<div class="card-info">
+									<p class="card-info-name">ALEXA SWEATER</p>
+									<div class="price-and-rating">
+										<p class="card-info-price">$52.00</p>
+										<div class="product-page-content__rating focus-visible">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+									</div>
+								</div>
+							</a>
+							<div class="box-add">
+								<a class="add" href="#">
+									<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
+									<p class="add-text">Add to cart</p>
+								</a>
+							</div>
+						</div>
+						<div class="one-card one-card-fix">
+							<a href="#" class="card card-fix">
+								<img class="card-img-png card-img-png-fix" src="img/products/product_box_3.png"
+								     alt="AGNES_TOP.png">
+								<div class="card-info">
+									<p class="card-info-name">AGNES TOP</p>
+									<div class="price-and-rating">
+										<p class="card-info-price">$52.00</p>
+										<div class="product-page-content__rating focus-visible">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+									</div>
+								</div>
+							</a>
+							<div class="box-add">
+								<a class="add" href="#">
+									<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
+									<p class="add-text">Add to cart</p>
+								</a>
+							</div>
+						</div>
+						<div class="one-card one-card-fix">
+							<a href="#" class="card card-fix">
+								<img class="card-img-png card-img-png-fix" src="img/products/product_box_4.png"
+								     alt="SYLVA_SWEATER.png">
+								<div class="card-info">
+									<p class="card-info-name">SYLVA SWEATER</p>
+									<div class="price-and-rating">
+										<p class="card-info-price">$52.00</p>
+										<div class="product-page-content__rating focus-visible">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+									</div>
+								</div>
+							</a>
+							<div class="box-add">
+								<a class="add" href="#">
+									<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
+									<p class="add-text">Add to cart</p>
+								</a>
+							</div>
+						</div>
+						<div class="one-card one-card-fix">
+							<a href="#" class="card card-fix">
+								<img class="card-img-png card-img-png-fix" src="img/products/product_box_5.png"
+								     alt="SYLVA_SWEATER.png">
+								<div class="card-info">
+									<p class="card-info-name">SYLVA SWEATER</p>
+									<div class="price-and-rating">
+										<p class="card-info-price">$52.00</p>
+										<div class="product-page-content__rating focus-visible">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+									</div>
+								</div>
+							</a>
+							<div class="box-add">
+								<a class="add" href="#">
+									<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
+									<p class="add-text">Add to cart</p>
+								</a>
+							</div>
+						</div>
+						<div class="one-card one-card-fix">
+							<a href="#" class="card card-fix">
+								<img class="card-img-png card-img-png-fix" src="img/products/product_box_6.png"
+								     alt="SYLVA_SWEATER.png">
+								<div class="card-info">
+									<p class="card-info-name">SYLVA SWEATER</p>
+									<div class="price-and-rating">
+										<p class="card-info-price">$52.00</p>
+										<div class="product-page-content__rating focus-visible">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+									</div>
+								</div>
+							</a>
+							<div class="box-add">
+								<a class="add" href="#">
+									<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
+									<p class="add-text">Add to cart</p>
+								</a>
+							</div>
+						</div>
+						<div class="one-card one-card-fix">
+							<a href="#" class="card card-fix">
+								<img class="card-img-png card-img-png-fix" src="img/products/product_box_7.png"
+								     alt="SYLVA_SWEATER.png">
+								<div class="card-info">
+									<p class="card-info-name">SYLVA SWEATER</p>
+									<div class="price-and-rating">
+										<p class="card-info-price">$52.00</p>
+										<div class="product-page-content__rating focus-visible">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+									</div>
+								</div>
+							</a>
+							<div class="box-add">
+								<a class="add" href="#">
+									<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
+									<p class="add-text">Add to cart</p>
+								</a>
+							</div>
+						</div>
+						<div class="one-card one-card-fix">
+							<a href="#" class="card card-fix">
+								<img class="card-img-png card-img-png-fix" src="img/products/product_box_8.png"
+								     alt="SYLVA_SWEATER.png">
+								<div class="card-info">
+									<p class="card-info-name">SYLVA SWEATER</p>
+									<div class="price-and-rating">
+										<p class="card-info-price">$52.00</p>
+										<div class="product-page-content__rating focus-visible">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+									</div>
+								</div>
+							</a>
+							<div class="box-add">
+								<a class="add" href="#">
+									<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
+									<p class="add-text">Add to cart</p>
+								</a>
+							</div>
+						</div>
+						<div class="one-card one-card-fix">
+							<a href="#" class="card card-fix">
+								<img class="card-img-png card-img-png-fix" src="img/products/product_box_9.png"
+								     alt="SYLVA_SWEATER.png">
+								<div class="card-info">
+									<p class="card-info-name">SYLVA SWEATER</p>
+									<div class="price-and-rating">
+										<p class="card-info-price">$52.00</p>
+										<div class="product-page-content__rating focus-visible">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+									</div>
+								</div>
+							</a>
+							<div class="box-add">
+								<a class="add" href="#">
+									<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
+									<p class="add-text">Add to cart</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-box-footer">
+					<div class="pagination">
+						<a class="pagination-link" href="#"><</a>
+						<a class="pagination-link active-page" href="#">1</a>
+						<a class="pagination-link" href="#">2</a>
+						<a class="pagination-link" href="#">3</a>
+						<a class="pagination-link" href="#">4</a>
+						<a class="pagination-link" href="#">5</a>
+						<a class="pagination-link" href="#">6</a>
+						<a class="pagination-link" href="#">...</a>
+						<a class="pagination-link" href="#">20</a>
+						<a class="pagination-link" href="#">></a>
+					</div>
+					<a class="all-view-link" href="#">View All</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="feature-page-product">
+	<div class="feature-page-product-box">
+		<div class="container">
+			<div class="feature-box-product">
+				<div class="feature-box-content">
+					<img class="feature-img-icon" src="img/icon_delivery.png" alt="icon_delivery.png">
+					<p class="feature-info-title">Free Delivery</p>
+					<p class="feature-info-info text-centre">
+						Worldwide delivery on all. Authority timely morph next-generation info ton with
+						extensive
+						models.
+					</p>
+				</div>
+				<div class="feature-box-content">
+					<img class="feature-img-icon" src="img/icon_sales.png" alt="icon_sales.png">
+					<p class="feature-info-title">Sales & discounts</p>
+					<p class="feature-info-info text-centre">
+						Worldwide delivery on all. Authority tively morph next-generation innov tion with
+						extensive
+						models.
+					</p>
+				</div>
+				<div class="feature-box-content">
+					<img class="feature-img-icon" src="img/icon_quality.png" alt="icon_quality.png">
+					<p class="feature-info-title">Quality assurance</p>
+					<p class="feature-info-info text-centre">
+						Worldwide delivery on all. Authority timely morph next-generation info ton with
+						extensive
+						models.
+					</p>
+				</div>
 			</div>
 		</div>
 	
-	</div>
-</section>
-<section class="you-may-like-also">
-	<div class="container">
-		<header>
-			<h3 class="you-may-like-also__header">YOU MAY LIKE ALSO</h3>
-		</header>
-		<div class="product-cards">
-			<div class="one-card one-card-fix one-card-fix-margin">
-				<a href="#" class="card card-fix">
-					<img class="card-img-png card-img-png-fix" src="img/BLAZE_LEGGINGS.png" alt="BLAZE_LEGGINGS.png">
-					<div class="card-info">
-						<p class="card-info-name">BLAZE LEGGINGS</p>
-						<div class="price-and-rating">
-							<p class="card-info-price">$52.00</p>
-							<div class="product-page-content__rating focus-visible">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-							</div>
-						</div>
-					
-					</div>
-				</a>
-				<div class="box-add">
-					<a class="add" href="#">
-						<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
-						<p class="add-text">Add to cart</p>
-					</a>
-				</div>
-			</div>
-			<div class="one-card one-card-fix one-card-fix-margin">
-				<a href="#" class="card card-fix">
-					<img class="card-img-png card-img-png-fix" src="img/ALEXA_SWEATER.png" alt="ALEXA_SWEATER.png">
-					<div class="card-info">
-						<p class="card-info-name">ALEXA SWEATER</p>
-						<div class="price-and-rating">
-							<p class="card-info-price">$52.00</p>
-							<div class="product-page-content__rating focus-visible">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-							</div>
-						</div>
-					</div>
-				</a>
-				<div class="box-add">
-					<a class="add" href="#">
-						<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
-						<p class="add-text">Add to cart</p>
-					</a>
-				</div>
-			</div>
-			<div class="one-card one-card-fix one-card-fix-margin">
-				<a href="#" class="card card-fix">
-					<img class="card-img-png card-img-png-fix" src="img/AGNES_TOP.png" alt="AGNES_TOP.png">
-					<div class="card-info">
-						<p class="card-info-name">AGNES TOP</p>
-						<div class="price-and-rating">
-							<p class="card-info-price">$52.00</p>
-							<div class="product-page-content__rating focus-visible">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-							</div>
-						</div>
-					</div>
-				</a>
-				<div class="box-add">
-					<a class="add" href="#">
-						<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
-						<p class="add-text">Add to cart</p>
-					</a>
-				</div>
-			</div>
-			<div class="one-card one-card-fix one-card-fix-margin">
-				<a href="#" class="card card-fix">
-					<img class="card-img-png card-img-png-fix" src="img/SYLVA_SWEATER.png" alt="SYLVA_SWEATER.png">
-					<div class="card-info">
-						<p class="card-info-name">SYLVA SWEATER</p>
-						<div class="price-and-rating">
-							<p class="card-info-price">$52.00</p>
-							<div class="product-page-content__rating focus-visible">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-							</div>
-						</div>
-					</div>
-				</a>
-				<div class="box-add">
-					<a class="add" href="#">
-						<img class="add-img" src="img/cart-add.svg" alt="cart-add.svg">
-						<p class="add-text">Add to cart</p>
-					</a>
-				</div>
-			</div>
-		</div>
 	</div>
 </section>
 <section class="subscribe">
