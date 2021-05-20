@@ -1,0 +1,163 @@
+.header-r
+  min-height: 120px
+
+.header-r-flex
+  display: flex
+  justify-content: space-between
+
+.header-r-right
+  width: 69%
+  margin: auto
+
+.header-r-left
+  width: 29%
+
+.header-r-nav
+  display: flex
+  justify-content: space-between
+
+.nav-r
+  font-size: 14px
+  color: #565656
+  margin: 2%
+
+.banner-full-page
+  min-height: 546px
+  background-color: #9f9f9f
+  display: flex
+  justify-content: flex-end
+  align-items: center
+
+.banner-r-content
+  padding: 5%
+
+.advertising-flex
+  display: flex
+  justify-content: space-between
+
+.advertising-left
+  width: 60%
+
+.advertising-right
+  width: 38%
+
+.advertising-left-top
+  margin-bottom: 2%
+
+.advertising-left-bottom
+  display: flex
+  justify-content: space-between
+
+
+.advertising-left-top-item
+  min-height: 430px
+  margin-bottom: 2%
+
+.advertising-left-bottom-left
+  width: 48%
+
+.advertising-left-bottom-left-item
+  min-height: 250px
+  margin-bottom: 4%
+
+  &:last-of-type
+    margin-bottom: 0
+
+.advertising-left-bottom-right-item
+  min-height: 513px
+  width: 48%
+
+
+.item-color
+  background-color: #ccc
+
+.advertising-right-item-top
+  margin-bottom: 2%
+  min-height: 698px
+
+.advertising-right-item-bottom
+  min-height: 250px
+
+@media screen and (max-width: 375px)
+  .advertising-flex
+    flex-wrap: wrap
+
+  .advertising-left
+    width: 100%
+
+  .advertising-left-top-item
+    min-height: 156px
+
+  .advertising-left-bottom
+    flex-wrap: wrap
+
+  .advertising-left-bottom-left
+    width: 100%
+
+  .advertising-left-bottom-left-item
+    min-height: 156px
+
+    &:last-of-type
+      margin-bottom: 4%
+
+  .advertising-left-bottom-right-item
+    width: 100%
+    margin-bottom: 4%
+    min-height: 156px
+
+  .advertising-right
+    width: 100%
+
+  .advertising-right-item-top
+    margin-bottom: 4%
+    min-height: 156px
+
+
+//----------
+.main
+  display: flex
+  justify-content: space-between
+
+
+.left-content
+  border: solid 1px red
+  width: 65%
+
+.right-content
+  border: solid 1px rebeccapurple
+  width: 32%
+
+
+.item
+  border: solid 1px greenyellow
+  min-height: 180px
+  margin-bottom: 40px
+
+  &:last-of-type
+    margin-bottom: 40px
+
+
+@media screen and (max-width: 768px)
+  .main
+    flex-wrap: wrap
+
+  .left-content
+    width: 100%
+    margin-bottom: 2%
+
+  .right-content
+    display: flex
+    justify-content: space-between
+    width: 100%
+  .item
+    width: 48%
+
+@media screen and (max-width: 375px)
+
+  .right-content
+    flex-wrap: wrap
+  .item
+    width: 100%
+
+
+
