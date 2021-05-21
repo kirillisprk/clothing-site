@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+          rel="stylesheet">
     <script src="https://kit.fontawesome.com/e288fa3e20.js" crossorigin="anonymous"></script>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/old-style.css" rel="stylesheet">
@@ -12,44 +14,75 @@
     <title>Responsive</title>
 
 </head>
-<body>
+<body class="font-family">
 <header>
     <div class="header-r">
-        <div class="container header-r-flex content-padding">
-            <div class="header-r-left">
-                <div class="logo-r">
-                    <h1>FENGO</h1>
+        <div class="header-r-top">
+            <div class="container header-r-flex padding-header-r">
+                <div class="header-size">
+                    <div class="header-r-top-left">
+                        <a class="link-nav-r" href=#>My&nbsp;Account</a>
+                        <a class="link-nav-r" href="#">MY&nbsp;Wishlist&nbsp;(0)</a>
+                        <a class="link-nav-r" href="#">Checkout</a>
+                        <a class="link-nav-r" href="#">Log&nbsp;In&nbsp;or&nbsp;Register</a>
+                    </div>
+                    <div class="header-r-top-right">
+                        <a class="link-nav-r" href="#">US&nbsp;Dollar</a>
+                        <a class="link-nav-r" href="#">English</a>
+                        <a class="link-nav-r" href="#">My&nbsp;Bag:&nbsp;0&nbsp;item(s)</a>
+                    </div>
                 </div>
             </div>
-            <div class="header-r-right">
-                <nav class="header-r-nav">
-                    <p class="nav-r">FASHION</p>
-                    <p class="nav-r">ELECTRONICS</p>
-                    <p class="nav-r">GIFTS</p>
-                    <p class="nav-r">BOOKS</p>
-                    <p class="nav-r">AT&nbsp;HOME</p>
-                    <p class="nav-r">MUSIC</p>
-                    <p class="nav-r">SALE</p>
-                </nav>
+        </div>
+        <div class="container">
+            <div class="header-r-top-input">
+                <input class="top-input" type="text" placeholder="Find it here...">
+            </div>
+            <div class="header-r-bottom padding-header-r header-r-flex flex-wrap-style padding-bottom">
+                <div class="header-r-left">
+                    <div class="logo-r">
+                        <img src="img/logo_resposiv.png" alt="logo_resposiv.png">
+                        <h3 class="logo-r-text">FENGO</h3>
+                    </div>
+                </div>
+                <div class="header-r-right">
+                    <nav class="header-r-nav">
+                        <p class="nav-r">FASHION</p>
+                        <p class="nav-r">ELECTRONICS</p>
+                        <p class="nav-r">GIFTS</p>
+                        <p class="nav-r">BOOKS</p>
+                        <p class="nav-r">AT&nbsp;HOME</p>
+                        <p class="nav-r">MUSIC</p>
+                        <p class="nav-r">SALE</p>
+                    </nav>
+                </div>
             </div>
         </div>
     </div>
 </header>
 <section>
     <div class="banner-full-page">
-        <div class="banner-r-content">
-            <p>CHECK YOUR</p>
-            <p>AUTUMN STYLE</p>
-            <p>ALL THE TRENDS YOU NEED THIS SEASON</p>
-            <p>READ IT NOW</p>
+        <div class="container banner-flex">
+            <div class="banner-r-content">
+                <p class="first-text-banner">CHECK YOUR</p>
+                <p class="main-text-banner">AUTUMN STYLE</p>
+                <p class="banner-info-text">ALL THE TRENDS YOU NEED THIS SEASON</p>
+                <a class="banner-link">READ IT NOW</a>
+            </div>
         </div>
+
     </div>
 </section>
 <section>
     <div class="advertising">
         <div class="container content-padding advertising-flex">
             <div class="advertising-left">
-                <div class="advertising-left-top-item item-color"></div>
+                <div class="advertising-left-top-item item-color">
+                    <div class="advertising-left-top-content">
+                        <p class="title-text-content-item">exclusive</p>
+                        <p class="title-text-content-item_small">discount codes & offers</p>
+                    </div>
+                </div>
                 <div class="advertising-left-bottom">
                     <div class="advertising-left-bottom-left">
                         <div class="advertising-left-bottom-left-item item-color"></div>
