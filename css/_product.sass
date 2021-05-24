@@ -36,6 +36,9 @@
     font-weight: bold
     color: $rosy-pink
 
+.carousel
+  position: relative
+
 .flex-carousel
   display: flex
   justify-content: space-between
@@ -62,6 +65,9 @@
     &:hover
       color: $rosy-pink
 
+.product-page-description
+  position: relative
+
 .product-page-content
   height: 730px
   @include borderClass(1px, $grey-very-light)
@@ -69,6 +75,7 @@
   display: flex
   flex-direction: column
   align-items: center
+  margin-top: -60px
 
   .container-product-page
     max-width: 620.3px
@@ -169,11 +176,18 @@
       width: 100%
       color: $rosy-pink
       background-color: $white
+      cursor: pointer
+
+      &:active
+        background-color: $rosy-pink
+        color: $white
+
 
       .add-to-cart
         display: flex
         align-items: center
         justify-content: center
+
 
       .basket__img-buy
         margin-right: 15px
@@ -187,6 +201,9 @@
     text-align: center
     color: $black-light
     margin-bottom: 67px
+
+
+
 
 
 

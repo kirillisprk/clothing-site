@@ -250,9 +250,19 @@ ul .quality-icon {
     display: block;
 }
 
+.card-fix {
+    width: 263px;
+    height: 280px;
+}
 
 .card-img-png {
     width: 100%;
+}
+
+.card-img-png-fix {
+    width: 100%;
+    height: 100%;
+    background-color: #e9e9e9;
 }
 
 .card-info-name {
@@ -296,6 +306,29 @@ ul .quality-icon {
 .one-card {
     position: relative;
     margin-bottom: 40px;
+}
+
+.one-card-fix {
+    height: 364px;
+}
+.one-card-fix-margin{
+    margin-bottom: 0;
+}
+
+.price-and-rating {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #e4af48;
+
+}
+
+.focus-visible {
+    display: none;
+}
+
+.one-card:hover .focus-visible {
+    display: block;
 }
 
 .one-card:hover {
