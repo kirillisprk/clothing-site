@@ -1,3 +1,31 @@
+@import "var"
+@import "header"
+@import "navigation"
+@import "subscribe"
+@import "footer"
+@import "footer-copy-rite"
+@import "product"
+
 *
   margin: 0
   padding: 0
+  box-sizing: border-box
+
+body
+  font-family: $fontFamily
+
+.container
+  max-width: $maxWidth
+  margin: 0 auto
+  height: 100%
+
+
+//Стиль для зеркалирования триугольника когда меню не помещается на экран
+.last:hover .nav-menu-ul__mega-box
+  right: 0
+
+.last:hover .nav-menu-ul__mega-box:before
+  right: 65px
+  left: auto
+
+
