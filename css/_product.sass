@@ -168,6 +168,7 @@
       padding: 15px
       @include borderClass(1px, $grey-very-light)
       background-color: $white
+      outline: none
 
     .choose-button
       margin-top: 30px
@@ -179,6 +180,10 @@
       cursor: pointer
 
       &:active
+        background-color: $rosy-pink
+        color: $white
+
+      &:hover
         background-color: $rosy-pink
         color: $white
 
@@ -202,6 +207,10 @@
     color: $black-light
     margin-bottom: 67px
 
+
+.choose-button:hover
+  background-color: #f16d7f
+  color: white
 
 
 
