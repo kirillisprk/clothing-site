@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+          rel="stylesheet">
     <script src="https://kit.fontawesome.com/e288fa3e20.js" crossorigin="anonymous"></script>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/old-style.css" rel="stylesheet">
@@ -12,14 +14,67 @@
     <title>Responsive</title>
 
 </head>
-<body>
+<body class="font-family">
 <header>
     <div class="header-r">
-        <div class="container header-r-flex content-padding">
-            <div class="header-r-left">
-                <div class="logo-r">
-                    <h1>FENGO</h1>
+        <div class="header-r-top">
+            <div class="container header-r-flex padding-header-r">
+                <div class="header-size">
+                    <div class="header-r-top-left">
+                        <a class="link-nav-r" href=#>My&nbsp;Account</a>
+                        <a class="link-nav-r" href="#">MY&nbsp;Wishlist&nbsp;(0)</a>
+                        <a class="link-nav-r" href="#">Checkout</a>
+                        <a class="link-nav-r" href="#">Log&nbsp;In&nbsp;or&nbsp;Register</a>
+                    </div>
+                    <div class="header-r-top-right">
+                        <a class="link-nav-r" href="#">US&nbsp;Dollar</a>
+                        <a class="link-nav-r" href="#">English</a>
+                        <a class="link-nav-r" href="#">My&nbsp;Bag:&nbsp;0&nbsp;item(s)</a>
+                    </div>
+                    <div class="header-r-top-all">
+                        <a class="link-nav-r" href=#>My&nbsp;Account</a>
+                        <a class="link-nav-r" href="#">MY&nbsp;Wishlist&nbsp;(0)</a>
+                        <a class="link-nav-r" href="#">Checkout</a>
+                        <a class="link-nav-r" href="#">Log&nbsp;In&nbsp;</a>
+                        <a class="link-nav-r" href="#">US&nbsp;Dollar</a>
+                        <a class="link-nav-r" href="#">English</a>
+                        <a class="link-nav-r" href="#">My&nbsp;Bag:&nbsp;0&nbsp;item(s)</a>
+
+                    </div>
+                    <div class="header-r-top-small">
+                        <a class="link-nav-r" href=#>My&nbsp;Account</a>
+                        <a class="link-nav-r" href="#">MY&nbsp;Wishlist&nbsp;(0)</a>
+                        <a class="link-nav-r" href="#">Checkout</a>
+                    </div>
                 </div>
+            </div>
+        </div>
+        <div class="container header-r-small">
+            <div class="header-size-small">
+                <a class="link-nav-r" href="#">US&nbsp;Dollar</a>
+                <a class="link-nav-r" href="#">English</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="header-r-left">
+                <div class="none-block">
+                    <div class="logo-r">
+                        <img src="img/logo_resposiv.png" alt="logo_resposiv.png">
+                        <h3 class="logo-r-text">FENGO</h3>
+                    </div>
+                </div>
+                <div class="small-login">
+                    <a class="link-nav-r" href="#">Log&nbsp;In&nbsp;or&nbsp;Register</a>
+                </div>
+                <form action="#" id="search-r" class="flex-form-search-r">
+                    <div class="header-r-top-input">
+                        <input class="top-input" type="text" placeholder="Find it here...">
+                    </div>
+                    <button type="submit" form="search-r" class="button-search-r">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
             </div>
             <div class="header-r-right">
                 <nav class="header-r-nav">
@@ -31,17 +86,40 @@
                     <p class="nav-r">MUSIC</p>
                     <p class="nav-r">SALE</p>
                 </nav>
+
+                <div class="header-r-nav-small">
+                    <div class="header-r-nav-small-left text-decoration">
+                        <i class="fas fa-bars fas_margin"></i>NAVIGATION
+                    </div>
+                    <div class="header-r-nav-small-right text-decoration">
+                        <i class="fas fa-shopping-basket fas_margin"></i>$0.00
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
 </header>
 <section>
     <div class="banner-full-page">
-        <div class="banner-r-content">
-            <p>CHECK YOUR</p>
-            <p>AUTUMN STYLE</p>
-            <p>ALL THE TRENDS YOU NEED THIS SEASON</p>
-            <p>READ IT NOW</p>
+        <div class="container banner-flex">
+            <div class="banner-r-content">
+                <p class="first-text-banner">CHECK YOUR</p>
+                <p class="main-text-banner">AUTUMN STYLE</p>
+                <p class="banner-info-text">ALL THE TRENDS YOU NEED THIS SEASON</p>
+                <a class="banner-link">READ IT NOW <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="advertising-left-top-item item-color custom-banner">
+                <div class="item-center item-center_space">
+                    <div class="advertising-left-top-content advertising-left-top-content-custom">
+                        <p class="title-text-content-item line-horizon">YOU&nbsp;PAY&nbsp;LESS</p>
+                        <p class="title-text-content-item_small">EVERYONE ELSE PAYS ATTENTION.</p>
+                        <a href="#" class="link-to-discount-r custom-link-margin">
+                            get your discount <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -49,19 +127,100 @@
     <div class="advertising">
         <div class="container content-padding advertising-flex">
             <div class="advertising-left">
-                <div class="advertising-left-top-item item-color"></div>
+                <div class="advertising-left-top-item item-color">
+                    <div class="item-center">
+                        <a href="#" class="arrow none-block-item">
+                            <i class="far fa-arrow-alt-circle-left icon-slider-style"></i>
+                        </a>
+                        <div class="advertising-left-top-content custom-height">
+                            <p class="title-text-content-item line-horizon">exclusive</p>
+                            <p class="title-text-content-item_small">discount codes & offers</p>
+                        </div>
+                        <a href="#" class="arrow none-block-item">
+                            <i class="far fa-arrow-alt-circle-right icon-slider-style"></i>
+                        </a>
+                    </div>
+                    <a href="#" class="link-to-discount-r">
+                        get your discount <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
                 <div class="advertising-left-bottom">
                     <div class="advertising-left-bottom-left">
-                        <div class="advertising-left-bottom-left-item item-color"></div>
-                        <div class="advertising-left-bottom-left-item item-color"></div>
+                        <div class="advertising-left-bottom-left-item advertising-left-bottom-left-item_flex-display item-color">
+                            <div class="item-center item-center_flex-fix item-center_flex-zero ">
+                                <div class="advertising-left-top-content custom-height advertising-left-top-content_border-none">
+                                    <p class="title-text-content-item">jewelry</p>
+                                    <p class="title-text-content-item_small">every third item is free!</p>
+                                </div>
+                            </div>
+                            <a href="#" class="link-to-discount-r">
+                                buy now <i class="fas fa-angle-right"></i>
+                            </a>
+                        </div>
+                        <div class="advertising-left-bottom-left-item item-color advertising-left-bottom-left-item_flex-display">
+                            <div class="item-center item-center_flex-fix item-center_flex-zero ">
+                                <div class="advertising-left-top-content custom-height advertising-left-top-content_border-none">
+                                    <p class="title-text-content-item  line-horizon title-text-content-item_font-size">
+                                        accessories
+                                    </p>
+                                    <p class="title-text-content-item_small title-text-content-item_small_font-size">
+                                        Complete your style
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="#" class="link-to-discount-r">
+                                get the look <i class="fas fa-angle-right"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div class="advertising-left-bottom-right-item item-color">
+                    <div class="advertising-left-bottom-right-item item-color advertising-left-bottom-left-item_flex-display advertising-left-bottom-left-item_center">
+                        <div class="item-center item-center_flex-fix item-center_flex-zero ">
+                            <div class="advertising-left-top-content custom-height advertising-left-top-content_border-none">
+                                <p class="title-text-content-item title-text-content-item_font-size">
+                                    LOOKBOOK
+                                </p>
+                                <p class="title-text-content-item_small  line-horizon title-text-content-item_small_font-size-min">
+                                    women
+                                </p>
+                                <p class="title-text-content-item_small title-text-content-item_small_font-size">
+                                    autumn 2013
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="link-to-discount-r">
+                            get the look <i class="fas fa-angle-right"></i>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="advertising-right">
-                <div class="advertising-right-item-top item-color"></div>
-                <div class="advertising-right-item-bottom item-color"></div>
+                <div class="advertising-right-item-top item-color advertising-left-bottom-left-item_flex-display advertising-left-bottom-left-item_center">
+                    <div class="item-center item-center_flex-fix item-center_flex-zero ">
+                        <div class="advertising-left-top-content custom-height advertising-left-top-content_border-none">
+                            <p class="title-text-content-item title-text-content-item_font-size">
+                                the
+                            </p>
+                            <p class="title-text-content-item_small  line-horizon title-text-content-item_small_font-size-min">
+                                hottest styles
+                            </p>
+                            <p class="title-text-content-item_small title-text-content-item_small_font-size">
+                                are here
+                            </p>
+                        </div>
+                    </div>
+                    <a href="#" class="link-to-discount-r">
+                        get the look <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+                <div class="advertising-right-item-bottom item-color">
+                    <div class="item-center item-center_flex-fix item-center_flex-zero ">
+                        <div class="advertising-left-top-content custom-height advertising-left-top-content_border-none">
+                            <p class="title-text-content-item title-text-content-item_font-size">
+                                what's new?
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
